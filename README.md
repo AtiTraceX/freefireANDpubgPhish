@@ -6,11 +6,10 @@ This Tool is Only For Educational purpose/ Educational Phishing Simulator /Red T
     these pacakges and then
 2) pkg install git -y
 3) git clone https://github.com/AtiTraceX/freefireANDpubgPhish.git
-4) cd AtiTrace
+4) cd freefireANDpubgPhish
 5) chmod +x atrace.sh
-6) bash atrace.sh
-   if bash not work then
-7) ./atrace.sh
+6) ./atrace.sh
+   
 
 # Disclaimer
 
